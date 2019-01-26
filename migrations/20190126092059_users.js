@@ -8,6 +8,7 @@ return knex.schema.createTable('users', (user) => {
 	user.string('email')
 	user.string('password')
 	user.integer('phone_number')
+	user.string('user_photo')
 
 
   })
